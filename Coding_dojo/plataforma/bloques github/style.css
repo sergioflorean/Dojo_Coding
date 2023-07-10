@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+
+}
+.top{
+    background-color: blue;
+    width: 1000px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-cat{
+    height: 200px;
+    margin: 30px;
+}
+.medium{
+    background-color: salmon;
+    width: 1000px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

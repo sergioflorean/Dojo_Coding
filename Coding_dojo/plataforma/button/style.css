@@ -1,0 +1,44 @@
+body{
+    padding: 50px;
+}
+
+#search{
+    color: rgb(83, 195, 158);
+    background-color: rgb(240, 246, 247);
+    border-style: solid;
+    display: inline-block;
+    border-color: rgb(83, 195, 158);;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+    width: 140px;
+    font-weight: bold;
+    
+}
+
+#mas{
+    background-color: rgb(83, 195, 158);;
+    border-color: rgb(83, 195, 158);;
+    border-style: solid;
+    color: white;
+    border-radius: 50%;
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+
+}
+
+#account{
+    font-size: 20px;
+    color:aliceblue;
+    border-style: solid;
+    border-width: .125em;
+    border-color: black;
+    background-color: rgb(75, 75, 214);
+    box-shadow: 0 10px 20px black;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+
+}

@@ -1,0 +1,23 @@
+h1{
+    background-color: black;
+    color: aquamarine;
+}
+
+h2{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+
+#My{
+    color: white;
+}
+
+.link{
+    background-color: rgb(103, 103, 211);
+    text-align: right;
+}
+
+a{
+    color: black;
+}

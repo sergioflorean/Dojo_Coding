@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: solid;
+    border-width: 3%;
+    border-color: rgb(88, 88, 88);
+}
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    padding-right: 3%;    
+}
+.col{
+    padding-right: 3%;
+}
+,.row{
+    padding-right: 3%;
+}
+.box{
+    height: 200px;
+    padding: 10%;
+    background-color: rgb(133, 84, 179);
+}
+
+

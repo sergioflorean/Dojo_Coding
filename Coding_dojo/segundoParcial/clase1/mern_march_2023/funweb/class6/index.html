@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="title-container" >
+            <h1 onclick="sayHi()" 
+                onmouseover="changeTextColor(this)"
+                onmouseleave="changeTextColor(this)"
+            >Clase DOM y repaso funciones
+            </h1>
+        </div>
+        <form action="" onsubmit="event.preventDefault(); getTextFromInput()">
+            <input type="text" id="input" name="userName">
+            <button type="submit">Click me!</button>
+        </form>
+        <button id="btn1" class="button-show" onclick="showAndDisappear(true)">Hazme desaparecer</button>
+        <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSbJxnexNrUiJ-L_qBzR-lhnvG4lC9l2XZGg&usqp=CAU" 
+            alt=""
+            onmouseover="changeImage(this)"
+            onmouseleave="changeImage(this)"
+        >
+        <div class="formContainer">
+            <form action="" onsubmit="sendComment(event)">
+                <label for="comment">Ingresa tu comentario</label>
+                <textarea name="comment" id="commentInput" placeholder="Escribe ese comentario que tienes en mente..." cols="30" rows="10"></textarea>
+                <button type="submit">Enviar comentario</button>
+            </form>
+        </div>
+        <div id="postContainer"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

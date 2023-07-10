@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="login-bar">
+            <div class="title">
+                <h1>Just <span id="yellow-text">Dessert</span></h1>
+            </div>
+            <div class="nav-btn">
+                <button id="join" onclick="removeButton()" class="join-btn">Join</button>
+                <button class="login-btn">Login</button>
+            </div>
+
+        </div>
+        <div class="nav-bar">
+            <div class="search">
+                <input class="search-bar" type="text" placeholder="Search.." id="searchInfo">
+                <button class="go-btn" onclick="alertBtn()">go</button>
+            </div>
+            <div class="dessert-options">
+                <div class="img-title">
+                    <img class="options-img" src="./imgs/cake.png" alt=""><br>
+                    <p>cake</p>
+                </div>
+                <div class="img-title">
+                    <img class="options-img" src="./imgs/cookie.png" alt=""><br>
+                    <p>cookies</p>
+                </div>
+                <div class="img-title">
+                    <img class="options-img" src="./imgs/ice-cream.png" alt=""><br>
+                    <p>ice cream</p>
+                </div>
+                <div class="img-title">
+                    <img class="options-img" src="./imgs/pie.png" alt=""><br>
+                    <p>pie</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left-box">
+                <div class="left-box-content">
+                    <h2 class="oftheday-title">Recipe of the day</h2>
+                    <img class="oftheday-img" src="./imgs/orange-tart.jpg" alt="">
+                    <div class="left-info">
+                        <div>
+                            <h3>Orange Tea Jelly Tart <br>
+                                by: <a href="#">Yuri Piano</a>
+                            </h3>
+                        </div>
+                        <div class="likes">
+                            <img class="heart-img" src="./imgs/heart.png" alt="" onclick='like("#like1")'>
+                            <p id="like1">68</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <h3><a href="#">See full recipe</a></h3>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="right-box">
+                <div class="recommend">
+                    <h4>Recommended for you:</h4>
+                </div>
+                <div class="right-box-content">
+                    <img class="recommend-img" src="./imgs/macarons.jpg" alt="">
+                    <div class="right-info">
+                        <div>
+                            <h4>Macarons <br>
+                                by: <a href="#">EmilieW</a>
+                            </h4>
+                        </div>
+                        <div class="likes">
+                            <img class="heart-img" src="./imgs/heart.png" alt="" onclick='like("#like2")'>
+                            <p id="like2">212</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-box-content">
+                    <img class="recommend-img" src="./imgs/creme-brulee.jpg" alt="">
+                    <div class="right-info">
+                        <div>
+                            <h4>crème brûlèe <br>
+                                by: <a href="#">MarisaG</a>
+                            </h4>
+                        </div>
+                        <div class="likes">
+                            <img class="heart-img" src="./imgs/heart.png" alt="" onclick='like("#like3")'>
+                            <p id="like3">32</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

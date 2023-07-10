@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Tiempo Examn</title>
+</head>
+
+<body>
+    <div class="main container">
+        <div class="nav-bar">
+            <div class="nav-bar-content">
+                <div>
+                    <h1>DojoWeather</h1>
+                </div>
+                <div>
+                    <ul class="list">
+                        <li><a class="decoration" onclick="alertButton()" href="#">Burbank</a></li>
+                        <li><a class="decoration" onclick="alertButton()" href="#">Chicago</a></li>
+                        <li><a class="decoration" onclick="alertButton()" href="#">Dallas</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="selector-bar">
+            <div>
+                <h2>San Jose</h2>
+            </div>
+            <div class="selector">
+                <p>show temperature in </p>
+                <select name="celsius" onchange="convert(this)">
+                    <option>ºC</option>
+                    <option>ºF </option>
+                </select>
+            </div>
+
+
+        </div>
+        <div class="main-content">
+            <div class="box box1">
+                <div>
+                    <h2>Today</h2>
+                </div>
+                <div>
+                    <img  class="img-style" src="./assets/some_rain.png" alt="some rain image">
+                </div>
+                <div>
+                    <p>some rain</p>
+                </div>
+                <div class="grados">
+                    <p class="red" id="temp1">24</p>
+                    <p class="blue" id="temp2">18</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div>
+                    <h2>Tomorrow</h2>
+                </div>
+                <div>
+                    <img  class="img-style" src="./assets/some_sun.png" alt="some rain image">
+                </div>
+                <div>
+                    <p>some sun</p>
+                </div>
+                <div class="grados">
+                    <p class="red" id="temp3">27</p>
+                    <p class="blue" id="temp4">19</p>
+                </div>
+                
+            </div>
+            <div class="box box3">
+                <div>
+                    <h2>Friday</h2>
+                </div>
+                <div>
+                    <img  class="img-style" src="./assets/some_clouds.png" alt="some rain image">
+                </div>
+                <div>
+                    <p>some clouds</p>
+                </div>
+                <div class="grados">
+                    <p class="red" id="temp5">21</p>
+                    <p class="blue" id="temp6">16</p>
+                </div>
+                
+            </div>
+            <div class="box box4">
+                <div>
+                    <h2>Saturday</h2>
+                </div>
+                <div>
+                    <img  class="img-style" src="./assets/some_sun.png" alt="some rain image">
+                </div>
+                <div>
+                    <p>some sun</p>
+                </div>
+                <div class="grados">
+                    <p class="red" id="temp7">26</p>
+                    <p class="blue" id="temp8">11</p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="footer" id="footerId">
+            <div>
+                <img class="cookie" src="./assets/cookie.png" alt="cookie">
+            </div>
+            <div class="text">
+                <div>
+                    <h3>Stop! Cookie time</h3>
+                </div>
+                <div>
+                    <p>We use cookies (sadly not the edible ones) to personalize <br>
+                        content on ads, to provide social media futures and to <br>
+                        analyse our traffic. <a href="#">Read more..</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button onclick="removeCookies()">I accept</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

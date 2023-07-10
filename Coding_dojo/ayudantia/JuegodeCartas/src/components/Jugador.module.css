@@ -1,0 +1,11 @@
+.contenedorDeCartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.superContenedor{
+    width: 100%;
+    border-style: solid
+}

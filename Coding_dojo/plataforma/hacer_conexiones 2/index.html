@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="menu">
+
+                <ul>
+                    <li>
+                        <h1>Profile</h1>
+                    </li>
+                    <li class="links"><a class="a1" href="#">Home </a></li>
+                    <li class="links"><a class="a1" href="#">My Profile</a></li>
+                    <li class="links"><a class="a1" href="#">Find Connections</a></li>
+                </ul>
+
+            </div>
+            <div class="buttom">
+                <button>Sign Out</button>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="column content-right">
+                <div class="card">
+                    <div class="nav-green">
+                        <div>
+                            <img class="jane" src="jane-m.jpg" alt="jane pic">
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div>
+                            <h1 id="changeName">Jane Doe</h1>
+                        </div>
+                        <div>
+                            <img class="marker" src="map-marker.png" alt="">
+                            Seattle
+                        </div>
+                        <div>
+                            <p>Developer | Engineer | Problem solver <br> Master of shadows and the internet</p>
+                        </div>
+                        <div>
+                            <img class="gear" src="gear.png" alt="">
+                            <a href="#" onclick="changeName()" >edit profile</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="nav-grey">
+                        <h3 class="education">Education</h3>
+                    </div>
+                    <div class="information">
+                        <div>
+                            <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        </div>
+                        <div>
+                            Dec 2019 - Mar 2020
+                        </div>
+                        <div>
+                            Triple black belt in python, MERN and C#...
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="colum content-left">
+                <div class="card-left top">
+                    <div class="nav-grey2">
+                        <div class="boxnumber" id="requests">
+                            <h3>2</h3>
+                        </div>
+                        <div>
+                            <h2>Connections Requests</h2>
+                        </div>
+                    </div>
+                    <div class="name-requests">
+                        <div class="requests-info" id="request1">
+                            <div>
+                                <img class="img-small" src="todd-s.jpg" alt="">
+                            </div>
+                            <div>
+                                <h2>Todd E</h2>
+                            </div>
+                            <div class="acceptClose">
+                                <div>
+                                    <img class="img-small" src="accept-circle.png" alt="" onclick='accept("#request1")'>
+
+                                </div>
+                                <div>
+                                    <img class="img-small" src="close-circle.png" alt="" onclick='ignore("#request1")'>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="requests-info" id="request2">
+                            <div>
+                                <img class="img-small" src="phil-s.jpg" alt="">
+                            </div>
+                            <div>
+                                <h2>Phil K</h2>
+                            </div>
+                            <div class="acceptClose">
+                                <div>
+                                    <img class="img-small" src="accept-circle.png" alt="" onclick='accept("#request2")'>
+
+                                </div>
+                                <div>
+                                    <img class="img-small" src="close-circle.png" alt="" onclick='ignore("#request2")'>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-left bottom">
+                    <div class="nav-grey2">
+                        <div class="boxnumber2" id="connectionCount">
+                            <h3>418</h3>
+                        </div>
+                        <div>
+                            <h2>Your Connections</h2>
+                        </div>
+
+
+                    </div>
+                    <div class="name-requests2">
+                        <div class="requests-info">
+                            <div>
+                                <img class="img-small" src="adrien-s.jpg" alt="">
+                            </div>
+                            <div>
+                                <h2>Adrien D</h2>
+                            </div>
+                            
+                        </div>
+                        <div class="requests-info">
+                            <div>
+                                <img class="img-small" src="anne-s.jpg" alt="">
+                            </div>
+                            <div>
+                                <h2>Anne J</h2>
+                            </div>
+                            
+                        </div>
+                        <div class="requests-info">
+                            <div>
+                                <img class="img-small" src="alayne-s.jpg" alt="">
+                            </div>
+                            <div>
+                                <h2>Alaine T</h2>
+                            </div>
+                            
+                        </div>
+                        <div class="requests-info">
+                            <div>
+                                <img class="img-small" src="arry-s.jpg" alt="">
+                            </div>
+                            <div>
+                                <h2>Arry J</h2>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <title>formulario profesora carolina  </title> 
+</head>  
+    <body>
+        <div id="contenedor-padre">
+            <div id="contenedor-hijo">
+                <form action="">
+                    <h1>introducir datos para crear una cuenta</h1>
+                    <div>
+                        <h2>introduce tu nombre</h2>
+                        <label for="fname">nombre</label>
+                        <input type="text" id="fname" name="fname" placeholder="nombre" >
+                        <label for="lname">apellido(s)</label>
+                        <input type="text" id="lname" name="lname" placeholder="apellidos(s)">
+                    </div>                   
+                    <div>
+                        <h2>introduce tu correo y genera una contraseña</h2>
+                        <label for="email">introduce tu correo electrónico</label>
+                        <input type="mail" id="mail" name="name" placeholder="example@example.com">
+                    </div>
+                    <div>
+                        <label for="pwd">Password:</label>
+                        <input type="password" id="pwd" name="pwd" placeholder="password">
+                    </div>
+                    <div>
+                        <label for="pwd">confirma password:</label>
+                        <input type="password" id="pwd" name="pwd" placeholder="password">
+                    </div>   
+                    <div>
+                        <h2>forma de pago</h2>
+                        <input type="radio" id="prepago" name="elegir">
+                        <label for="prepago">prepago</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="tarjeta" name="elegir">
+                        <label for="tarjet">tarjeta crédito/débito</label>
+                    </div>
+                    
+                    
+                    <div>
+                        <h2>introduce tu fecha de nacimiento</h2>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+    
+                    <div>
+                        <h2>tipo de cuenta</h2>
+                        <select name="tipo de cuenta">
+                            <option>gratis</option>
+                            <option>premium</option>
+                            <option>premium pluc</option>
+                            <option>premium plus extra</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <h4>por que necesitas una cuenta con nosotros?</h4>
+                        <textarea name="informacion" id="info" cols="30" rows="10" placeholder="texto"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <label for="checkbox">acepto terminos y condiciones</label>
+                    </div>
+                    <div>
+                        <a href="https://open.spotify.com/search">terminos y condiciones</a>
+                    </div>
+                    <div>
+                        <label for="gsearch">busqueda de informacion:</label>
+                        <input type="search" id="gsearch" name="gsearch" placeholder="search google...">
+                    </div>
+                    <div>
+                        <input type="button" onclick="alert('submitted')" value="submit">
+                    </div>
+                    <p>esto es una prueba de una forma para llenar tus datos</p>
+                </form>
+            </div>
+        </div>
+        
+        
+            
+        
+
+
+
+    
+    </body>
+</html>

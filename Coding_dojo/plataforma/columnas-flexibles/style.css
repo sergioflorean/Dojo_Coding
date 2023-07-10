@@ -1,0 +1,31 @@
+.row{
+    display: flex;
+    background-color: beige;
+    width: 1200px;
+    align-items: center;
+    text-align: center;
+}
+
+.col{
+    padding: 10px;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    flex: 1;
+    margin: 10px;
+}
+
+.col-2{
+    padding: 10px;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    flex: 2;
+    margin: 10px;
+}
+
+.col-3{
+    padding: 10px;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    flex: 3;
+    margin: 10px;
+}
